@@ -66,17 +66,17 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 
-.nav1, .nav2, .nav3, .nav4, .nav5, .nav6 {
+nav {
 	color: gray;
-	display: inline-block;
-	text-decoration: none;
-	padding: 10px 50px 0px 50px;
-	margin: 10px;
-	margin-left: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 25px;
 }
 
-.nav1 {
-	margin-left: 90px;
+.nav1, .nav2, .nav3, .nav4, .nav5, .nav6 {
+	color: gray;
+	text-decoration: none;
 }
 
 .nav1:hover, .nav2:hover, .nav3:hover, .nav4:hover, .nav5:hover, .nav6:hover {
@@ -88,8 +88,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo {
-	display: inline-block;
-	padding: 10px 55px 0px 55px;
+	display: flex;
 }
 
 .title{

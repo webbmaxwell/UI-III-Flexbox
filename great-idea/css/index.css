@@ -91,6 +91,12 @@ nav {
 	display: flex;
 }
 
+.services-header-img {
+	display: flex;
+	text-align: center;
+	margin: 30px;
+}
+
 .title {
 	display: flex;
 	font-size: 82px;

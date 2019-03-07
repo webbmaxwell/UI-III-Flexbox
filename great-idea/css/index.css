@@ -92,21 +92,15 @@ nav {
 }
 
 .title{
-	padding: 50px 60px;
-	margin: 20px 60px;
+	display: flex;
 }
 
 h1 {
-	text-align: center;
-	font-size: 92px;
-	padding: 0px 80px;
-	margin: 10px 30px;
-	display: inline-block;
+	display: flex;
 }
 
 #roundimage {
-	display: inline-block;
-	padding: 0px 100px;
+	display: flex;
 }
 
 .buttons {
@@ -129,28 +123,23 @@ h2 {
 
 .aboveimage {
 	box-sizing: border-box;
-	display: inline-block;
-	padding: 10px 20px;
-	margin: 10px 115px;
+	display: flex;
 }
 
 .features, .about {
-	display: inline-block;
-	padding:
+	display: flex;
 }
 
 .middle-img {
-	margin: 0px 250px;
+	display: flex;
 }
 
 .services, .product, .vision {
 	box-sizing: border-box;
-	display: inline-block;
-	padding: 10px;
-	margin: 10px;
+	display: flex;
 }
 
 footer {
 	text-align: center;
-	margin: 80px;
+display: flex;
 }

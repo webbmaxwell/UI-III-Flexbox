@@ -91,8 +91,12 @@ nav {
 	display: flex;
 }
 
-.title{
+.title {
 	display: flex;
+	font-size: 82px;
+	text-align: center;
+	justify-content: space-around;
+	margin: 60px 0px;
 }
 
 h1 {
@@ -103,11 +107,12 @@ h1 {
 	display: flex;
 }
 
-.buttons {
+#getstarted {
 	background: white;
 	box-sizing: border-box;
 	border: 1px solid black;
-	padding: 5px 30px 5px 30px;
+	padding: 10px 35px;
+	margin-left: 250px;
 	font-size: 14px;
 	text-align: center;
 }
@@ -124,14 +129,24 @@ h2 {
 .aboveimage {
 	box-sizing: border-box;
 	display: flex;
+	justify-content: space-around;
+	margin-left: 60px;
 }
 
 .features, .about {
 	display: flex;
+	flex-direction: column;
 }
 
 .middle-img {
 	display: flex;
+	align
+}
+
+.belowimage {
+	display: flex;
+	margin-left: 60px;
+	justify-content: space-around;
 }
 
 .services, .product, .vision {
@@ -139,7 +154,13 @@ h2 {
 	display: flex;
 }
 
+.address {
+	display: flex;
+	flex-direction: column;
+	margin-left: 60px;
+}
+
 footer {
-	text-align: center;
-display: flex;
+	display: flex;
+	justify-content: center;
 }

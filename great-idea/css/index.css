@@ -92,9 +92,12 @@ nav {
 }
 
 .services-header-img {
-	display: flex;
-	text-align: center;
-	margin: 30px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: auto;
 }
 
 .title {
@@ -113,7 +116,7 @@ h1 {
 	display: flex;
 }
 
-#getstarted {
+.buttons {
 	background: white;
 	box-sizing: border-box;
 	border: 1px solid black;
@@ -130,7 +133,24 @@ hr {
 h2 {
 	font-size: 20px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	margin-left: 60px;
+}
+
+h2 .aboveimage {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h2 .belowimage {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+p {
+	display: flex;
+	margin-left: 60px;
+	flex-wrap: wrap;
 }
 
 .aboveimage {
@@ -146,8 +166,9 @@ h2 {
 }
 
 .middle-img {
-	display: flex;
-	align
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .belowimage {
@@ -162,7 +183,22 @@ h2 {
 	margin-left: 60px;
 }
 
+address {
+	margin-left: 60px;
+}
+
 footer {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 60px;
+}
+
+.services-page {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 60px;
+}
+
+.p-services {
+	width: 300px;
 }
